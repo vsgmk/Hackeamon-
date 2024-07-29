@@ -1,0 +1,285 @@
+body{
+    background-color:	#0C052B;
+    margin: 0px;
+    background-image: url(https://i.pinimg.com/originals/35/b1/ea/35b1eacd1e6926b0e2a8f5d1645bb8a3.jpg);
+background-size: cover;
+}
+
+/* navbar */
+.horizontal-list{
+    list-style: none;
+    display:flex;
+    
+    justify-content:space-between;
+}
+.horizontal-list li {
+   
+}
+.text-center {
+    text-align: center;
+    
+}
+#ninjas-logo-music{
+    margin-left: 5px; 
+}
+#top-fav{
+    position:absolute;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    left: 300px;
+}
+.search-box{
+   padding-left: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    background-color: #0D1421;
+    border-radius: 20%;
+   margin-top: 30px;
+  border: none;
+  margin-left: 550px;
+}
+.search-box-top{
+    position: relative;
+ 
+}
+.notification{
+color:white;
+font-size: 40px;
+margin-top: 25px;
+}
+.image-top-right-logo img{
+margin-top: 25px;
+margin-right: 25px;
+height: 48px;
+width: 50px;
+border-radius: 50%;
+
+}
+.fa-magnifying-glass{
+    position:absolute;
+     top: 45px;
+     left: 560px;
+    color: white;
+
+}
+.fa-microphone{
+    position:absolute;
+    top: 45px;
+    right: 10px;
+   color: white;
+
+}
+
+
+
+
+/* aside */
+
+
+
+.main-queue{
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 170px;
+    right: 60px;
+    color: blue;
+    
+ 
+ }
+ .heading-q{
+     position: absolute;
+     color: white;
+     top: -65px;
+     right: 320px;
+ }
+ .list-aside1 img{
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam1{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside2 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam2{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside3 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam3{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside4 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam4{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside5 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam5{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside6 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam6{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside7 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam7{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside8 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam8{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside9 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam9{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .dropdown{
+     position: absolute;
+     color: aqua;
+     font-size: 30px;
+     margin-top: -580px;
+     margin-left: 260px;
+ }
+ .fa-duotone{
+     font-size: 200px;
+     color:red;
+ }
+ 
+
+ 
+
+
+ /* playlist */
+
+
+
+
+
+ .p-img img{
+    position: absolute;
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 8%;
+
+ }
+ .title{
+    position: absolute;
+    margin-left: 430px;
+    font-size: xx-large;
+    color: lightcyan;
+ }
+ .title2{
+    position: absolute;
+    margin-left: 430px;
+    margin-top :130px;
+    font-size: xx-large;
+    color:#0D1421;
+ }
+ .title3{
+    position: absolute;
+    margin-left: 430px;
+    margin-top :230px;
+    font-size:x-large;
+    color:black;
+ }
+ .button{
+    position: absolute;
+    margin-left: 430px;
+    margin-top :300px;
+    color:white;
+    background-color: red;
+    font-size: x-large;
+    border: none;
+    padding: 13px;
+    border-radius: 20%;
+ }
+ .dil{
+    position: absolute;
+    margin-left: 570px;
+    margin-top :307px;
+    font-size:xx-large;
+    color:red;
+ }
+ 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Hello this is my first JS code</h1>
+    
+    <button onclick="switchOn()">Switch On</button>
+    <img id="bulb" src="bulb-off.jpg">
+    <button onclick="switchOff()">Switch Off</button>
+    <script>
+     function switchOn()
+     {
+        document.getElementById("bulb").src="bulb-on.jpg";
+     }
+
+     function switchOff()
+     {
+        document.getElementById("bulb").src="bulb-off.jpg";
+     }
+    </script>
+</body>
+
+</html>

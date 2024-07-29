@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    scroll-snap-align: start;
+}
+
+#page1 {
+    background-color: #3498db; /* Blue background */
+}
+
+#page2 {
+    background-color: #e74c3c; /* Red background */
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}

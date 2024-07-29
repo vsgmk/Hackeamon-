@@ -1,0 +1,5 @@
+string
+index:sr_name[index]
+slicing:str_name[start:end:increment]
+len()
+string adition

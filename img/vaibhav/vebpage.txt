@@ -1,0 +1,13 @@
+<html>
+<head>
+<title> one page website </title>
+</head>
+<body>
+<img src="image" height='500' width='1350'
+<font face="Edwardian Script ITC" size="7"color="#F3D"
+<h1>Hey this is a simple one-page website</h1>
+<h5>using HTML only(No CSS used)</h5>
+<b><u> get started </u></b>
+<button><b><u>subscribe</u></b></button>
+</body>
+</html>

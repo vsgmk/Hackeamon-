@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../OneDrive/Desktop/bulb"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bulb"
+	}
+}

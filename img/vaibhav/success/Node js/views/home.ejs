@@ -1,0 +1,32 @@
+<html>
+    <head>
+       <title>
+              <%= title  %> 
+       </title>
+       <link rel="stylesheet" href="/css/home.css">
+    </head>
+   
+        <body>
+            <h1 style="text-align: center; color: grey; margin-top:25px">
+                <i class="fas fa-address-book"></i>
+                My Contact List
+            </h1>
+            <div>
+                <ul>
+                    <% for(let i of contact_list) {%> 
+                        <li>
+                            <p><%= i.name %> </p>
+                            <p><%= i.phone %> </p>
+                        </li>
+                        <% } %> 
+                </ul>
+            </div>
+            <form action="/create-contact" method="post">
+                <input type="text" name="name" placeholder="Enter name">
+                <input type="number" name="phone" placeholder="Enter Phone">
+                <button type="submit">Add Contact</button>
+            </form>
+            <script type="text/javascript" src="/js/home.js"></script>
+        </body>
+ 
+</html>

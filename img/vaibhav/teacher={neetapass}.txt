@@ -1,0 +1,16 @@
+teacher={"neeta":"pass"}
+print("welcome in student management system")
+login
+def login():
+	count=0
+	u_name=input("Enter username")
+	if u_name in teacher:
+		while count<3:
+			pwd=input("enter password")
+			if pwd==teacher[u_name]
+				print("login successful!")
+				opt()
+				break
+			else:
+				count+=1
+		print("maximum attempts reached")

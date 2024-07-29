@@ -1,0 +1,765 @@
+body{
+    background-color:	#0C052B;
+    margin: 0px;
+    background-image: url(https://images.wondershare.com/filmora/article-images/2022/pop-background-music-1.jpg);
+    background-size: cover;
+}
+
+/* navbar */
+.horizontal-list{
+    list-style: none;
+    display:flex;
+    
+    justify-content:space-between;
+}
+.horizontal-list li {
+   
+}
+.text-center {
+    text-align: center;
+    
+}
+#ninjas-logo-music{
+    margin-left: 5px; 
+}
+#top-fav {
+    position:absolute;
+    /* text-decoration: none; */
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    left: 300px;
+}
+.search-box{
+   padding-left: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    background-color: #0D1421;
+    border-radius: 20%;
+   margin-top: 30px;
+  border: none;
+  margin-left: 550px;
+}
+.search-box-top{
+    position: relative;
+ 
+}
+.notification{
+color:white;
+font-size: 40px;
+margin-top: 25px;
+}
+.image-top-right-logo img{
+margin-top: 25px;
+margin-right: 25px;
+height: 48px;
+width: 50px;
+border-radius: 50%;
+
+}
+.fa-magnifying-glass{
+    position:absolute;
+     top: 45px;
+     left: 560px;
+    color: white;
+
+}
+.fa-microphone{
+    position:absolute;
+    top: 45px;
+    right: 10px;
+   color: white;
+
+}
+
+
+/* header image  */
+
+.img-div{
+    position: relative;
+    width: 250px;
+    height: 250px;
+margin-left: 50px;
+margin-right: 400px;
+}
+.div1 img{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+.div2 img{
+    position: absolute;
+    height: 271px;
+    width: 480px;
+    margin-left: 160px;
+    z-index: 1;
+    margin-top:-10px;;
+    
+    
+}
+
+.div3 img{
+position:relative;
+width: 250px;
+height: 250px;
+margin-left: 550px;
+}
+
+/* letest release */
+
+#Letest-Release{
+color: white;
+margin-left: 60px;
+margin-top:40px;
+}
+.letest-div{
+    display: flex;
+    flex-direction: column;
+    
+    width: 250px;
+    height: 250px;
+margin-left: 50px;
+margin-right: 400px;
+}
+.letest-1 img{
+    height: 80px;
+    width: 60px;
+}
+.letest-1word{
+    position: absolute;
+    color: white;
+    margin-left: 80px;
+margin-top: -100px;
+}
+.fa-ellipsis{
+    color: white;
+    font-size: larger;
+}
+.letest-dot1{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -78px;
+}
+.letest-2 img{
+    position: absolute;
+    height: 80px;
+    width: 60px;
+    margin-left:400px;
+    margin-top:-83px;
+}
+.letest-2word{
+    position: absolute;
+    color: white;
+    margin-left: 480px;
+    margin-top: -95px;
+}
+.letest-dot2{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -78px;
+}
+.letest-3 img{
+    position: absolute;
+    margin-top: 32px;
+    height: 80px;
+    width: 60px;
+    margin-left: 400px;
+}
+.letest-3word{
+    position: absolute;
+    color: white;
+    margin-left: 83px;
+    margin-top: 22px;
+}
+.letest-dot3{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 42px;
+}
+
+
+.letest-4 img{
+    position: absolute;
+    margin-top: 30px;
+    height: 80px;
+    width: 60px;
+}
+.letest-4word{
+    position: absolute;
+    color: white;
+    margin-left: 480px;
+    margin-top: 27px;
+}
+.letest-dot4{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 42px;
+}
+
+/* popular artists */
+
+
+#popular-artist{
+    color: white;
+    margin-left: 55px;
+}
+.main-artist{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    justify-content: flex-start;
+    
+}
+.artist1 img{
+height: 115px;
+width: 130px;
+border-radius: 50%;
+}
+.artist2 img{
+    position: relative;
+    left: 8px;
+    height: 115px;
+width: 130px;
+border-radius: 50%;
+}
+.artist3 img{
+    position: relative;
+    left: 16px;
+    height: 115px;
+width: 130px;
+border-radius: 50%;
+}
+.artist4 img{
+    position: relative;
+    left: 24px;
+    height: 115px;
+width: 130px;
+border-radius: 50%;
+}
+.artist5 img{
+    position: relative;
+    left: 32px;
+    height: 115px;
+width: 130px;
+border-radius: 50%;
+}
+.artist6 img{
+    position: relative;
+    left: 40px;
+    height: 115px;
+width: 130px;
+border-radius: 50%;
+}
+.nam-art{
+    word-spacing: 30px;
+    color: white;
+    margin-left: 65px;
+}
+
+
+
+
+/* popular artist hover */
+
+
+
+
+.artist1 img:hover{
+    height: 120px;
+    width: 135px;
+    border-radius: 40%;
+
+    }
+    .artist2 img:hover{
+        position: relative;
+        left: 8px;
+        height: 120px;
+    width: 135px;
+    border-radius: 40%;
+    }
+    .artist3 img:hover{
+        position: relative;
+        left: 16px;
+        height: 120px;
+    width: 135px;
+    border-radius: 40%;
+    }
+    .artist4 img:hover{
+        position: relative;
+        left: 24px;
+        height: 120px;
+    width: 135px;
+    border-radius: 40%;
+    }
+    .artist5 img :hover{
+        position: relative;
+        left: 32px;
+        height: 120px;
+    width: 135px;
+    border-radius: 30%;
+    }
+    .artist6 img:hover{
+        position: relative;
+        left: 40px;
+        height: 120px;
+    width: 135px;
+    border-radius: 40%;
+    }
+
+
+
+
+/* stations */
+
+.main-stations{
+    height:150px;
+    width:825px;
+    margin-left: 40px;
+    border: 2px solid #02103C;
+    background-color: #02103C;    
+}
+.stations1 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 5px;
+    height: 120px;
+    width: 100px;
+}
+.stations2 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 120px;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.stations3 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 240px;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.stations4 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 360px;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.stations5 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 480px;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.stations6 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 600px;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.stations7 img{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 720px;
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.name1{
+position: absolute;
+color: white;
+margin-left: 185px;
+margin-top: -90px;
+font-size: 25px;
+}
+.name2{
+    position: absolute;
+    color: white;
+    margin-left: 300px;
+    margin-top: -90px;
+    font-size: 25px;
+}
+.name3{
+    position: absolute;
+    color: white;
+    margin-left: 420px;
+    margin-top: -90px;
+    font-size: 25px;
+}
+
+.name4{
+    position: absolute;
+    color: white;
+    margin-left: 525px;
+    margin-top: -90px;
+    font-size: 25px;
+}
+.name5{
+    position: absolute;
+    color: white;
+    margin-left: 660px;
+    margin-top: -90px;
+    font-size: 25px;
+}
+.name6{
+    position: absolute;
+    color: white;
+    margin-left: 785px;
+    margin-top: -90px;
+    font-size: 25px;
+}
+
+/* center theam */
+
+.center-theam{
+    height:120px;
+    width:825px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.center-theam1 img{
+height: 120px;
+width:270px;
+}
+.center-theam2 img{
+    position: absolute;
+    margin-left: 7px;
+   width:270px;
+   height: 120px;
+}
+.center-theam3 img{
+    position: absolute;
+    margin-left: 285px;
+    height: 120px;
+width:270px;
+}
+.namec1{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin-left:140px;
+    margin-top:-80px;
+}
+.namec2{
+    position: absolute;
+color: white;
+font-size: 40px;
+margin-left:370px;
+margin-top:-80px;
+}
+.namec3{
+    position: absolute;
+color: white;
+font-size: 40px;
+margin-left:640px;
+margin-top:-80px;
+}
+
+/* letest english */
+
+.letest-english{
+    color: white;
+    margin-left: 40px;
+}
+.english-theam{
+ height: 150px;
+ width: 825px;   
+ margin-left: 40px;
+    display: flex;
+   
+}
+.en-theam1 img{
+height: 150px;
+width:130px;
+}
+.en-theam2 img{
+    position: absolute;
+    margin-left: 10px;
+    height: 150px;
+width:130px;
+}
+.en-theam3 img{
+    position: absolute;
+    margin-left: 149px;
+    height: 150px;
+width:130px;
+}
+.en-theam4 img{
+    position: absolute;
+    margin-left: 288px;
+    height: 150px;
+width:130px;
+}
+.en-theam5 img{
+    position: absolute;
+    margin-left: 425px;
+    height: 150px;
+width:130px;
+}
+.en-theam6 img{
+    position: absolute;
+    margin-left: 565px;
+    height: 150px;
+width:130px;
+}
+.en-name{
+    position: absolute;
+color: white;
+
+}
+.en-name1{
+    margin-left: 42px;
+}
+.en-name2{
+    margin-left: 188px;
+    margin-top: -80px;
+}
+.en-name3{
+    margin-left: 328px;
+    margin-top: -80px;
+}
+.en-name4{
+    margin-left: 465px;
+    margin-top: -80px;
+}
+.en-name5{
+    margin-left: 600px;
+    margin-top: -80px;
+}
+.en-name6{
+    margin-left: 740px;
+    margin-top: -80px;
+}
+
+ 
+
+/* aside bar */
+
+
+
+.main-queue{
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 170px;
+    right: 60px;
+    color: blue;
+    
+ 
+ }
+ .heading-q{
+     position: absolute;
+     color: white;
+     top: -65px;
+     right: 320px;
+ }
+ .list-aside1 img{
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam1{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside2 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam2{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside3 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam3{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside4 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam4{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside5 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam5{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside6 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam6{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside7 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam7{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside8 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam8{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .list-aside9 img{
+     height: 35px;
+     width: 40px;
+     border-color: lightgray;
+ box-shadow: lightcyan;
+ }
+ .list-aside-nam9{
+     position: absolute;
+     margin-top: 1px;
+     margin-left: 30px;
+     color: white;
+     font-size: 20px;
+ }
+ .dropdown{
+     position: absolute;
+     color: aqua;
+     font-size: 30px;
+     margin-top: -580px;
+     margin-left: 260px;
+ }
+ .fa-duotone{
+     font-size: 200px;
+     color:red;
+ }
+ 
+
+ 
+
+
+/* footer */
+
+
+.main-footer{
+    position: fixed;
+    border: 1px solid #0D1421;
+    background-color:#0D1421;  
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   display: flex;
+   justify-content: space-around;
+  }
+  .img-music{
+    position: absolute;
+    margin-right: 900px;
+  }
+  .img-music img{
+    height: 90px;
+    width:auto;
+  }
+.img-music span{
+    color: white;
+    position: absolute;
+    margin-bottom: 2px;
+    margin-top: 22px;
+    margin-left: 7px;
+}
+.fa-heart{
+   color: aliceblue;
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+.fa-volume-xmark{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 50px;
+    margin-left :85px;
+}
+
+.icon-music{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 25px;
+}
+#rangee{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 11px;
+}
+.la-icon{
+    color: aliceblue;
+    position: absolute;
+    margin-right: -900px;
+    margin-top: 34px;
+}
+
+
+
+  
+
+
+
+
+
